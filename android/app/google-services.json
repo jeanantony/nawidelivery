@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "623274989788",
+    "project_id": "nawi-81fc6",
+    "storage_bucket": "nawi-81fc6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623274989788:android:758069513edf0d0cb1fc19",
+        "android_client_info": {
+          "package_name": "com.jean1695.nawidelivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDagVpQdxOZAuNi6jtZk9oFyVB96qz5jY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

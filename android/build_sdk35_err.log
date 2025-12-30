@@ -1,0 +1,131 @@
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\jean antony\Desktop\app\nawi-delivery\node_modules\@react-native-async-storage\async-storage\android\src\javaPackage\java\com\reactnativecommunity\asyncstorage\AsyncStoragePackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: C:\Users\jean antony\Desktop\app\nawi-delivery\node_modules\react-native-worklets\android\src\main\java\com\swmansion\worklets\WorkletsPackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':expo-modules-core:buildCMakeDebug[arm64-v8a]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory `C:\Users\jean antony\Desktop\app\nawi-delivery\node_modules\expo-modules-core\android\.cxx\Debug\3z4w2a6h\arm64-v8a'
+  [1/49] Building CXX object src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx.pch
+  [2/49] Building CXX object CMakeFiles/expo-modules-core.dir/cmake_pch.hxx.pch
+  [3/49] Building CXX object CMakeFiles/expo-modules-core.dir/db589d045ee8eca7cc5425e289179ca9/node_modules/expo-modules-core/common/cpp/ObjectDeallocator.cpp.o
+  [4/49] Building CXX object CMakeFiles/expo-modules-core.dir/db589d045ee8eca7cc5425e289179ca9/node_modules/expo-modules-core/common/cpp/LazyObject.cpp.o
+  [5/49] Building CXX object CMakeFiles/expo-modules-core.dir/db589d045ee8eca7cc5425e289179ca9/node_modules/expo-modules-core/common/cpp/NativeModule.cpp.o
+  [6/49] Building CXX object CMakeFiles/expo-modules-core.dir/db589d045ee8eca7cc5425e289179ca9/node_modules/expo-modules-core/common/cpp/SharedRef.cpp.o
+  [7/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JNIDeallocator.cpp.o
+  [8/49] Building CXX object CMakeFiles/expo-modules-core.dir/db589d045ee8eca7cc5425e289179ca9/node_modules/expo-modules-core/common/cpp/SharedObject.cpp.o
+  [9/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JNIFunctionBody.cpp.o
+  [10/49] Building CXX object CMakeFiles/expo-modules-core.dir/db589d045ee8eca7cc5425e289179ca9/node_modules/expo-modules-core/common/cpp/TypedArray.cpp.o
+  [11/49] Building CXX object src/fabric/CMakeFiles/fabric.dir/4d95d1a9b4b46f55629a16b46e12ec7c/expo-modules-core/common/cpp/fabric/ExpoViewEventEmitter.cpp.o
+  [12/49] Building CXX object CMakeFiles/expo-modules-core.dir/db589d045ee8eca7cc5425e289179ca9/node_modules/expo-modules-core/common/cpp/JSIUtils.cpp.o
+  [13/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/ExpoModulesHostObject.cpp.o
+  [14/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JSharedObject.cpp.o
+  [15/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JavaReferencesCache.cpp.o
+  [16/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JSReferencesCache.cpp.o
+  [17/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/Exceptions.cpp.o
+  [18/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JNIInjector.cpp.o
+  [19/49] Building CXX object CMakeFiles/expo-modules-core.dir/db589d045ee8eca7cc5425e289179ca9/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp.o
+  [20/49] Building CXX object src/fabric/CMakeFiles/fabric.dir/4d95d1a9b4b46f55629a16b46e12ec7c/expo-modules-core/common/cpp/fabric/ExpoViewProps.cpp.o
+  FAILED: src/fabric/CMakeFiles/fabric.dir/4d95d1a9b4b46f55629a16b46e12ec7c/expo-modules-core/common/cpp/fabric/ExpoViewProps.cpp.o 
+  C:\Users\JEANAN~1\AppData\Local\Android\Sdk\ndk\263~1.115\TOOLCH~1\llvm\prebuilt\WINDOW~1\bin\CLANG_~1.EXE --target=aarch64-none-linux-android24 --sysroot="C:/Users/jean antony/AppData/Local/Android/Sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/windows-x86_64/sysroot"  -I"C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/react-native/ReactCommon" -I"C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/expo-modules-core/android/../common/cpp/fabric" -I"C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/react/fabric" -isystem "C:/Users/jean antony/.gradle/caches/8.14.3/transforms/d475cb7f6e682b6161b731215cafcb5c/transformed/fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/jsi/include" -isystem "C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_TARGET_VERSION=81 -fno-limit-debug-info  -fPIC -std=c++20 -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -O2 -frtti -fexceptions -Wall -fstack-protector-all -DUSE_HERMES=0 -DUNIT_TEST=0 -DIS_NEW_ARCHITECTURE_ENABLED=1 -DRN_FABRIC_ENABLED=1 -DRN_SERIALIZABLE_STATE=1 -std=gnu++20 -Winvalid-pch -Xclang -include-pch -Xclang "C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/expo-modules-core/android/.cxx/Debug/3z4w2a6h/arm64-v8a/src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx.pch" -Xclang -include -Xclang "C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/expo-modules-core/android/.cxx/Debug/3z4w2a6h/arm64-v8a/src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx" -MD -MT src/fabric/CMakeFiles/fabric.dir/4d95d1a9b4b46f55629a16b46e12ec7c/expo-modules-core/common/cpp/fabric/ExpoViewProps.cpp.o -MF src\fabric\CMakeFiles\fabric.dir\4d95d1a9b4b46f55629a16b46e12ec7c\expo-modules-core\common\cpp\fabric\ExpoViewProps.cpp.o.d -o src/fabric/CMakeFiles/fabric.dir/4d95d1a9b4b46f55629a16b46e12ec7c/expo-modules-core/common/cpp/fabric/ExpoViewProps.cpp.o -c "C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/expo-modules-core/common/cpp/fabric/ExpoViewProps.cpp"
+  In file included from C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/expo-modules-core/common/cpp/fabric/ExpoViewProps.cpp:4:
+  In file included from C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/react-native/ReactCommon/react/renderer/core/propsConversions.h:15:
+  C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/react-native/ReactCommon/react/renderer/core/graphicsConversions.h:80:14: error: no member named 'format' in namespace 'std'; did you mean 'folly::format'?
+        return std::format("{}%", dimension.value);
+               ^~~~~~~~~~~
+               folly::format
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/Format.h:291:1: note: 'folly::format' declared here
+  format(StringPiece fmt, Args&&... args) {
+  ^
+  In file included from C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/expo-modules-core/common/cpp/fabric/ExpoViewProps.cpp:4:
+  In file included from C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/react-native/ReactCommon/react/renderer/core/propsConversions.h:15:
+  C:/Users/jean antony/Desktop/app/nawi-delivery/node_modules/react-native/ReactCommon/react/renderer/core/graphicsConversions.h:80:14: error: no viable conversion from returned value of type 'Formatter<false, const float &>' to function return type 'folly::dynamic'
+        return std::format("{}%", dimension.value);
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:238:18: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'const ObjectMaker &' for 1st argument
+    /* implicit */ dynamic(ObjectMaker const&) = delete;
+                   ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:289:3: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'const dynamic &' for 1st argument
+    dynamic(dynamic const&);
+    ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:290:3: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'dynamic &&' for 1st argument
+    dynamic(dynamic&&) noexcept;
+    ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic-inl.h:321:17: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'std::nullptr_t' for 1st argument
+  inline dynamic::dynamic(std::nullptr_t) : type_(NULLT) {}
+                  ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic-inl.h:323:17: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'void (*)(EmptyArrayTag)' for 1st argument
+  inline dynamic::dynamic(void (*)(EmptyArrayTag)) : type_(ARRAY) {
+                  ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic-inl.h:327:17: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'ObjectMaker (*)()' for 1st argument
+  inline dynamic::dynamic(ObjectMaker (*)()) : type_(OBJECT) {
+                  ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic-inl.h:331:17: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'const char *' for 1st argument
+  inline dynamic::dynamic(char const* s) : type_(STRING) {
+                  ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic-inl.h:335:17: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'std::string' (aka 'basic_string<char>') for 1st argument
+  inline dynamic::dynamic(std::string s) : type_(STRING) {
+                  ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic-inl.h:344:17: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'ObjectMaker &&' for 1st argument
+  inline dynamic::dynamic(ObjectMaker&& maker) : type_(OBJECT) {
+                  ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic-inl.h:376:17: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'std::vector<bool>::reference' (aka '__bit_reference<vector<bool, allocator<bool>>>') for 1st argument
+  inline dynamic::dynamic(std::vector<bool>::reference b)
+                  ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic-inl.h:378:17: note: candidate constructor not viable: no known conversion from 'Formatter<false, const float &>' to 'VectorBoolConstRefCtorType' (aka 'std::__bit_const_reference<std::vector<bool>>') for 1st argument
+  inline dynamic::dynamic(VectorBoolConstRefCtorType b)
+                  ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic-inl.h:340:17: note: candidate template ignored: requirement 'is_detected_v<folly::dynamic_detail::detect_construct_string, folly::Formatter<false, const float &>>' was not satisfied [with Stringish = Formatter<false, const float &>]
+  inline dynamic::dynamic(Stringish&& s) : type_(STRING) {
+                  ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic-inl.h:384:10: note: candidate template ignored: substitution failure [with T = Formatter<false, const float &>]: implicit instantiation of undefined template 'folly::dynamic::NumericTypeHelper<folly::Formatter<false, const float &>>'
+  dynamic::dynamic(T t) {
+           ^
+  C:/Users/jean antony/.gradle/caches/8.14.3/transforms/0ba7f924bb3c819e5cc03eb8784e5872/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:1115:12: note: explicit constructor is not a candidate
+    explicit dynamic(Array&& r);
+             ^
+  2 errors generated.
+  [21/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JNIUtils.cpp.o
+  [22/49] Building CXX object src/fabric/CMakeFiles/fabric.dir/4d95d1a9b4b46f55629a16b46e12ec7c/expo-modules-core/common/cpp/fabric/ExpoViewShadowNode.cpp.o
+  [23/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JSIContext.cpp.o
+  [24/49] Building CXX object src/fabric/CMakeFiles/fabric.dir/FabricComponentsRegistry.cpp.o
+  [25/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/RuntimeHolder.cpp.o
+  [26/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JavaScriptRuntime.cpp.o
+  [27/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JavaScriptWeakObject.cpp.o
+  [28/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JavaScriptModuleObject.cpp.o
+  [29/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/MethodMetadata.cpp.o
+  [30/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JavaScriptTypedArray.cpp.o
+  [31/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JavaScriptValue.cpp.o
+  [32/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JavaScriptFunction.cpp.o
+  [33/49] Building CXX object src/fabric/CMakeFiles/fabric.dir/afce0bfdb09b1a1adc403ce1bac9197d/common/cpp/fabric/ExpoViewComponentDescriptor.cpp.o
+  [34/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JavaScriptObject.cpp.o
+  [35/49] Building CXX object CMakeFiles/expo-modules-core.dir/src/main/cpp/JavaCallback.cpp.o
+  ninja: build stopped: subcommand failed.
+  
+  C++ build system [build] failed while executing:
+      @echo off
+      "C:\\Users\\jean antony\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+        -C ^
+        "C:\\Users\\jean antony\\Desktop\\app\\nawi-delivery\\node_modules\\expo-modules-core\\android\\.cxx\\Debug\\3z4w2a6h\\arm64-v8a" ^
+        expo-modules-core
+    from C:\Users\jean antony\Desktop\app\nawi-delivery\node_modules\expo-modules-core\android
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 24s
